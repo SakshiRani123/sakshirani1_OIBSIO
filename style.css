@@ -7,8 +7,6 @@ body {
   height: 100vh;
   margin: 0;
 }
-
-
 .converter-box {
   background-color: white;
   padding: 30px;
@@ -18,12 +16,10 @@ body {
   max-width: 400px;
   text-align: center;
 }
-
 h2 {
   margin-bottom: 20px;
   color: #333;
 }
-
 input[type="number"] {
   padding: 10px;
   width: 80%;
@@ -32,16 +28,13 @@ input[type="number"] {
   border-radius: 8px;
   border: 1px solid #ccc;
 }
-
 .unit-selection {
   margin-bottom: 20px;
 }
-
 .unit-selection label {
   margin: 0 10px;
   font-weight: 500;
 }
-
 button {
   background-color: #007BFF;
   color: white;
@@ -52,11 +45,9 @@ button {
   cursor: pointer;
   transition: background 0.3s ease;
 }
-
 button:hover {
   background-color: #0056b3;
 }
-
 #result {
   margin-top: 20px;
   font-size: 1.2rem;

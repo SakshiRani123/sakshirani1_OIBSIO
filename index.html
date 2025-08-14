@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+      background-image: url('temperature.jpg');
+      background-size: cover; /* full-screen */
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  </style>
+<body>
+
+  <div class="converter-box">
+    <h2>Temperature Converter</h2>
+    
+    <input type="number" id="tempInput" placeholder="Enter temperature" />
+
+    <div class="unit-selection">
+      <p>Select Input Unit:</p>
+      <label><input type="radio" name="unit" value="C" checked> Celsius</label>
+      <label><input type="radio" name="unit" value="F"> Fahrenheit</label>
+      <label><input type="radio" name="unit" value="K"> Kelvin</label>
+    </div>
+
+    <button onclick="convertTemperature()">Convert</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
